@@ -6,6 +6,14 @@
   "license": "MIT",
   "type": "module",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayowait/dsh-usage-insights.git"
+  },
+  "homepage": "https://github.com/Ayowait/dsh-usage-insights#readme",
+  "bugs": {
+    "url": "https://github.com/Ayowait/dsh-usage-insights/issues"
+  },
   "keywords": [
     "deepseek-harness",
     "dsh-plugin",
