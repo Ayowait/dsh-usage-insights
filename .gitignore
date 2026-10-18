@@ -1,0 +1,14 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*
+
+# never commit runtime data
+storages/
+events.jsonl
+backfill.json
+pricing.json
+*.tmp

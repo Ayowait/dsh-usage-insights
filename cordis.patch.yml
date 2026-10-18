@@ -1,0 +1,8 @@
+# dsh-usage-insights — 设置里的「用量查询」页。
+#
+# One Host row only: the plugin itself records every LLM call (via session
+# events and the llm/stream purpose calls) and serves the page's JSON API.
+# Plain inserts keep this file hot-mountable by the plugin market.
+- insert:
+    - id: dsh-usage-insights
+      name: dsh-usage-insights
